@@ -1,0 +1,416 @@
+/* start main rules*/
+
+ body {
+    
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+
+.astrisk
+{
+	font-size: 30px;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+	color: #D20707;
+}
+/*end main rules*/
+
+/*start login form*/
+
+
+.login
+{
+	width: 300px;
+	margin: 100px auto;
+}
+
+.login h2
+{
+	color: #888;
+	margin-bottom: 20px;
+	
+}
+
+.login input
+{
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.login .form-control
+{
+	background-color: #EAEAEA;
+}
+
+.login .btn
+{
+	background-color: #008dde;
+	font-weight: bold;
+	font-size: 1em;
+}
+/*end login form*/
+
+
+/*Start Navbar*/
+
+.navbar
+{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.nav>li>a,
+.navbar-brand{
+
+	padding: 15px 12px;
+}
+
+.navbar-brand{
+	font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu{
+	background-color: #3498db;
+}
+
+.dropdown-menu{
+
+	min-width: 180px;
+	font-size: 1em;
+	border: none;
+	padding: 0;
+	border-radius: 0;
+	margin-: 
+
+}
+
+.dropdown-menu>li>a{
+
+	color: #FFF;
+	padding: 10px 10px;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+
+	background-color: #8e44ad;
+
+}
+
+/*End navbar*/
+
+/*Start Dashbord*/
+	
+.home-stats .stat
+{
+	padding: 20px;
+	font-size: 20px;
+	color: #FFF;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.home-stats .stat i {
+    font-size: 80px;
+    position: absolute;
+    top: 31px;
+    left: 9px;
+}
+
+.home-stats .stat .info
+{
+	float: right;
+}
+
+.home-stats .stat a
+{
+	color: #FFF;
+}
+
+.home-stats .stat a:hover
+{
+	text-decoration: none;
+}
+
+.home-stats .st-members
+{
+	background-color:#3498db; 
+}
+
+.home-stats .st-pending
+{
+	background-color:#c0392b; 
+}
+.home-stats .st-items
+{
+	background-color:#d35400; 
+}
+.home-stats .st-comments
+{
+	background-color:#8e44ad; 
+}
+
+.home-stats .stat span
+{
+	display: block;
+	font-size: 60px;
+}
+
+.latest
+{
+	margin-top: 40px;
+}
+.latest .panel-heading .toggle-info{
+	color: #999;
+	cursor: pointer;
+
+}
+.list-users
+{
+	margin-bottom: 0;
+}
+.list-users .btn-success,
+.list-users .btn-info
+{
+	padding: 3px 8px;
+}
+.list-users .btn-info
+{
+	margin-right: 5px;
+}
+
+.list-users li
+{
+	padding: 7px;
+	overflow: hidden;
+}
+.list-users li:nth-child(odd)
+{
+	background-color: #EEE;
+}
+
+.latest .comment-box
+{
+	margin: 5px 0 10px 0;
+}
+
+.latest .comment-box .member_n
+{
+	width: 80px;
+	text-align: center;
+	margin-right: 20px;
+	position: relative;
+    top: 10px;
+    color: #3498db;
+	float: left;
+}
+
+.latest .comment-box .member_c
+{
+	width: calc(100% - 100px);
+	float: left;
+	background-color: #EFEFEF;
+	position: relative;
+	min-height: 40px;
+}
+
+.latest .comment-box .member_c:before
+{
+	content: "";
+	display: block;
+	position: absolute;
+	left: -30px;
+	top: 5px;
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-color: transparent #EFEFEF transparent transparent;
+	border-width: 15px;
+}
+/*end Dashbord*/
+
+
+/*Start members page*/
+
+h1
+{
+	font-size: 65px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #666;
+
+}
+
+.show-pass{
+    right: 20px;
+    position: absolute;
+    top: 7px;
+}
+.main-table
+{
+	-webkit-box-shadow:0  3px 10px #CCC;
+	-moz-box-shadow:0  3px 10px #CCC;
+	box-shadow:0  3px 10px #CCC;
+}
+
+.main-table td{
+	background: #fff;
+    vertical-align: middle !important;
+}
+
+
+.main-table tr:first-child td{
+	background-color: #333;
+	color: #FFF;
+}
+
+.main-table .btn{
+
+	padding: 3px 10px;
+}
+.activate{
+	margin-left: 5px;
+}
+
+/*End members page*/
+
+/*start catagory page*/
+
+
+.catagories .panel-heading{
+	color: #959595;
+	font-weight: bold;
+}
+.catagories .panel-heading i
+{
+	position: relative;
+    top: 1px;
+    left: -2px;
+}
+.catagories .panel-body{
+	padding: 0;
+}
+.catagories hr
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.catagories .options a
+{
+	text-decoration: none;
+	color: #888;
+}
+
+.catagories .options span
+{
+	cursor: pointer;
+	color: #888;
+}
+
+.catagories .options .active
+{
+	color: #F00;
+	font-weight: bold;
+}
+.catagories .cat
+{
+	position: relative;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.catagories .cat h3
+{
+	margin: 0;
+	cursor: pointer;
+	font-weight: bold;
+	color: #6A6A6A;
+}
+.catagories .cat .full-view{
+	margin-bottom: 10px;
+}
+.catagories .cat .full-view p
+{
+	margin-top: 10px;
+	color:#707070;
+}
+
+.catagories .cat:last-of-type ~ hr
+{
+	display: none;
+}
+
+.catagories .cat .visb,
+.catagories .cat .comment,
+.catagories .cat .ads
+{
+	
+    padding: 4px 6px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 6px;
+
+}
+
+.catagories .cat .visb
+{
+	background-color: #c0392b;
+
+}
+
+.catagories .cat .comment
+
+{
+	background-color: #2c3e50;
+
+}
+
+.catagories .cat .ads
+
+{
+	background-color: #27ae60;
+
+}
+.catagories .cat .hidden-btn
+{
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+	position: absolute;
+	right: -130px;
+	top: 15px;
+
+}
+.catagories .cat:hover
+{
+	background-color: #EEE;
+
+}
+
+.catagories .cat:hover .hidden-btn
+{
+	right: 10px;
+	
+}
+.catagories .cat .hidden-btn a
+{
+	margin-left: 5px;
+}
+
+.catagories .btn
+{
+	margin: 10px 0;
+}
+
+
+/*end catagory page*/
+
+/*start item page*/
+
+/*end item page*/
